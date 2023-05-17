@@ -1,0 +1,133 @@
+.skills > span {
+  display: flex;
+  justify-content: center;
+}
+.skills > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.skills > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.container {
+  margin-top: 8rem;
+  position: relative;
+}
+.skill-container {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.skill-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+.skill-list {
+  padding-left: 2.7rem;
+}
+.skill-titles > span {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+}
+.skill-icon,
+.skill-arrow {
+  font-size: 1.5rem;
+  color: var(--orange);
+}
+.skill-icon {
+  margin-right: 1rem;
+}
+.skill-titles > :nth-child(1) {
+  font-size: 1.75rem;
+  font-weight: lighter;
+}
+.skill-titles > :nth-child(2) {
+  font-size: 15px;
+  color: var(--gray);
+}
+.s-title {
+  font-size: 1.4rem;
+}
+.s-subtitle {
+  font-size: 18px;
+  color: var(--gray);
+}
+.skill-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.skill-bar,
+.skill-pergentage {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+.skill-bar {
+  background-color: rgba(27, 51, 129, 0.486);
+  margin: 1rem 0;
+}
+.skill-pergentage {
+  display: block;
+  background-color: rgba(27, 51, 129, 0.932);
+}
+.html-skill {
+  width: 90%;
+}
+.css-skill {
+  width: 80%;
+}
+.js-skill {
+  width: 70%;
+}
+.react-skill {
+  width: 85%;
+}
+.php-skill {
+  width: 50%;
+}
+.mysql-skill {
+  width: 60%;
+}
+.python-skill {
+  width: 60%;
+}
+.figma-skill {
+  width: 70%;
+}
+.phs-skill {
+  width: 50%;
+}
+.skill-close .skill-list {
+  height: 0px;
+  overflow: hidden;
+}
+.skill-open .skill-list {
+  height: max-content;
+  margin-bottom: 2.5rem;
+}
+.skill-open .skill-arrow {
+  transform: rotate(-180deg);
+}
+.skills-blur {
+  position: absolute;
+  top: 13rem;
+  left: 20rem;
+  height: 20rem;
+  width: 30rem;
+}
+@media screen and (max-width: 480px){
+  .skills{
+    margin-top: 20rem;
+  }
+  .skills :nth-child(2){
+    text-align: center;
+  }
+}

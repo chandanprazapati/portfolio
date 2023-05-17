@@ -1,0 +1,23 @@
+.tabs {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 224px;
+}
+.nav-tabs>.nav-item{
+    padding: 0px 35px;
+}
+.tab-content{
+    text-align: center;
+}
+@media screen and (max-width: 480px){
+    .nav-tabs{
+        margin: auto;
+    }
+}

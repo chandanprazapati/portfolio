@@ -1,0 +1,15 @@
+.quali-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.quali-data>span {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.calander-date {
+    font-size: 18px;
+}
