@@ -2,7 +2,7 @@
   "name": "portfolio",
   "homepage": "https://chandanprazapati.github.io/portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@iconscout/react-unicons": "^2.0.2",
