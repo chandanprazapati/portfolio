@@ -11,9 +11,12 @@ const Portfolio = () => {
   const handleClick = () => {
     window.open("//github.com/chandanprazapati/");
   };
+  const tourismClick = () => {
+    window.open("https://hotelbookingsystem.netlify.app/");
+  };
   return (
     <div className="portfolio" id="Portfolio">
-      {/*heater part of portfolio */}
+      {/*hader part of portfolio */}
       <span>Recent Project</span>
       <span>Portfolio</span>
       {/* portfolio slider*/}
@@ -31,7 +34,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={Tourism} alt="" />
-          <button onClick={handleClick} className="button p-button">
+          <button onClick={tourismClick} className="button p-button">
             Demo
           </button>
         </SwiperSlide>
